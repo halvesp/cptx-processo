@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+.app {
+	min-height: 100vh;
+	padding: 15rem 0;
+	background: #4568DC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4568DC, #B06AB3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4568DC, #B06AB3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	display: flex;
+	justify-content: center;
+}
+
+.container{
+	background-color: #f8f4f4;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	width: 100%;
+	justify-content: center;
+}
+
+.card {
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	background-color: #fff;
+	border: 1px solid rgb(226, 226, 226);
+	padding: 23px 1px;
+	width: 150vh;
+	border-radius: 5px;
+	margin-bottom: 4px;
+	
+}
+
+.card:hover{
+	background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	transition: 3s;
+}
+@media (max-width: 1000px)
+{
+  .card{
+	width: 100vh;
+  }
+   
+}
+@media (max-width: 670px)
+{
+  .card{
+	width: 80vh;
+  }
+   
+}
+@media (max-width: 540px)
+{
+  .card{
+	width: 50vh;
+  }
+   
+}
+
+.card h1{
+	width: 200px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	margin-top: 5px;
+}
+
+.card h2{
+	width: 200px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.3rem;
+
+	margin-top: 10px;
+}
+.card h3{
+	font-family: 'Roboto', sans-serif;
+	width: 200px;
+	font-size: 1.3rem;
+	margin-top: 10px;
+}
